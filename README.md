@@ -11,3 +11,5 @@
 ![](https://github.com/maricelaramirez2104/challenge-amigo-secreto/blob/main/assets/amigo-secreto.png)
 ### play_circle_outline.png
 ![](https://github.com/maricelaramirez2104/challenge-amigo-secreto/blob/main/assets/play_circle_outline.png)
+### principal-amigo-secreto
+![](https://github.com/maricelaramirez2104/challenge-amigo-secreto/blob/main/assets/principal-amigo-secreto.png)
