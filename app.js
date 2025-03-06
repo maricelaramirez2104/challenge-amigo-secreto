@@ -31,7 +31,7 @@ function renderizarAmigos(){
 
     //En este for vamos agregar todos los nombres a nuestra listaAmigos que tiene nuestro arreglo amigos[]
     for(let i = 0; i < amigo.length; i++){
-        //crea un elemento li por cada nombre que se encuentra en mi arreglo amigo[]
+        //Crea un elemento li por cada nombre que se encuentra en mi arreglo amigo[]
         let item = document.createElement("li");
         item.textContent = amigo[i];
         //llamamos a la Ul listaAmigos los hijos que se encuentra en cada li item
