@@ -2,11 +2,11 @@
 let amigo = [];
 
 function agregarAmigo(){
-    //en esta función vamos agregar en un arreglo los nombres que se escriban en el campo de texto
+    //En esta función vamos agregar en un arreglo los nombres que se escriban en el campo de texto
     let inputAmigo = document.getElementById("amigo");
     let nombreAmigo = inputAmigo.value;
 
-    //si no se agregado un nombre manda una alerta
+    //Si no se agregado un nombre manda una alerta
     if (!nombreAmigo){
         alert("Debes ingresar un nombre");
         return;
@@ -16,6 +16,6 @@ function agregarAmigo(){
     amigo.push(nombreAmigo);
     //Limpia el campo de texto
     inputAmigo.value = "";
-    //se posiciona en el campo de texto
+    //Se posiciona en el campo de texto
     inputAmigo.focus();
 }
