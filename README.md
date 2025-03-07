@@ -66,3 +66,6 @@
 
 ### Habilita el botón Nuevo sorteo y deshabilita el botón Sortear amigo
 ![](https://github.com/maricelaramirez2104/challenge-amigo-secreto/blob/main/assets/limpia-sorteo.png)
+
+## Proyecto Amigo Secreto
+- Versión final del proyecto
