@@ -15,7 +15,7 @@ function agregarAmigo(){
     // Si el nombre ya esta incluido en la lista
     if (amigos.includes(nombreAmigo)){
         alert(`El nombre ${nombreAmigo}, ya esta incluido en la lista`)
-        
+
         //Limpia el campo de texto
         inputAmigo.value = "";
 
@@ -71,6 +71,9 @@ function sortearAmigo(){
     //Se limpia la lista de amigos
     let limpiarLista = document.getElementById("listaAmigos");
 
+    // Deshabilita el botón sorteo amigo
+    document.querySelector('#sortear').setAttribute('disabled','true');
+
     // Se habilita el botón Nuevo sorteo
     document.getElementById('reiniciar').removeAttribute('disabled');
     limpiarLista.innerHTML = "";
@@ -97,4 +100,9 @@ function reiniciarSorteo(){
 
     // Deshabilita el botón nuevo sorteo
     document.querySelector('#reiniciar').setAttribute('disabled','true');
+
+    // Se habilita el botón Nuevo sorteo
+    document.getElementById('sortear').removeAttribute('disabled');
+    limpiarLista.innerHTML = "";
+
 }
