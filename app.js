@@ -14,10 +14,13 @@ function agregarAmigo(){
 
     //Agrega el nombre a la lista
     amigos.push(nombreAmigo);
+
     //Limpia el campo de texto
     inputAmigo.value = "";
+
     //Se posiciona en el campo de texto
     inputAmigo.focus();
+    
     //agregamos la función renderizarAmigos() para que sea llamada cada que agregamos un nombre
     renderizarAmigos();
 }
@@ -26,6 +29,7 @@ function renderizarAmigos(){
     //En esta función vamos agregar en la lista listaamigos los nombres de los amigos unicos
     //que no se repitan los nombres que ya estan en el arreglo cuando se escriban en el campo de texto
     let listaAmigos = document.getElementById("listaAmigos");
+
     //Limpiamos la lista de amigos
     listaAmigos.innerHTML = "";
 
@@ -34,6 +38,7 @@ function renderizarAmigos(){
         //Crea un elemento li por cada nombre que se encuentra en mi arreglo amigo[]
         let item = document.createElement("li");
         item.textContent = amigos[i];
+
         //llamamos a la Ul listaAmigos los hijos que se encuentra en cada li item
         listaAmigos.appendChild(item);
     }
@@ -52,6 +57,9 @@ function sortearAmigo(){
 
     //Se limpia la lista de amigos
     let limpiarLista = document.getElementById("listaAmigos");
+
+    // Se habilita el botón Nuevo sorteo
+    document.getElementById('reiniciar').removeAttribute('disabled');
     limpiarLista.innerHTML = "";
 }
 
@@ -59,10 +67,21 @@ function limpiarCaja(){
     // Se limpia el texto del amigo sorteado
     let resultado = document.getElementById("resultado");
     resultado.innerHTML = '';
+
     // Se limpia el campo de texto
     let inputAmigo = document.getElementById("amigo");
     inputAmigo.innerHTML = '';
     inputAmigo.focus();
+
     // Se inicializa el arreglo
     amigos = [];
+}
+
+function reiniciarSorteo(){
+    // Se reinicia para crear una nueva lista de amigo secreto
+    // Limpia la caja de texto
+    limpiarCaja();
+
+    // Deshabilita el botón nuevo sorteo
+    document.querySelector('#reinciar').setAttribute('disabled','true');
 }
