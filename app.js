@@ -12,17 +12,30 @@ function agregarAmigo(){
         return;
     }
 
-    //Agrega el nombre a la lista
-    amigos.push(nombreAmigo);
+    // Si el nombre ya esta incluido en la lista
+    if (amigos.includes(nombreAmigo)){
+        alert(`El nombre ${nombreAmigo}, ya esta incluido en la lista`)
+        
+        //Limpia el campo de texto
+        inputAmigo.value = "";
 
-    //Limpia el campo de texto
-    inputAmigo.value = "";
+        //Se posiciona en el campo de texto
+        inputAmigo.focus();
+        return;
+    } else {
+        //Agrega el nombre a la lista
+        amigos.push(nombreAmigo);
 
-    //Se posiciona en el campo de texto
-    inputAmigo.focus();
+        //Limpia el campo de texto
+        inputAmigo.value = "";
+    
+        //Se posiciona en el campo de texto
+        inputAmigo.focus();
 
-    //agregamos la función renderizarAmigos() para que sea llamada cada que agregamos un nombre
-    renderizarAmigos();
+        //agregamos la función renderizarAmigos() para que sea llamada cada que agregamos un nombre
+        renderizarAmigos();
+    }
+
 }
 
 function renderizarAmigos(){
