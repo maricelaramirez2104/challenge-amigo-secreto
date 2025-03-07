@@ -49,3 +49,8 @@
 - Se agrega el formato para el botón
 ### Nuevo sorteo
 ![](https://github.com/maricelaramirez2104/challenge-amigo-secreto/blob/main/assets/nuevo-sorteo.png)
+
+### Se crea la función limpiarCaja();
+- Se limpia el texto del amigo sorteado
+- Se limpia el campo de texto
+- Se inicializa el arreglo
