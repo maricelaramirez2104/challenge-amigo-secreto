@@ -43,3 +43,6 @@
 ### Muestra el amigo sorteado
 ![](https://github.com/maricelaramirez2104/challenge-amigo-secreto/blob/main/assets/amigo-sorteado.png)
 - Se limpia la lista de amigos
+
+## Se agrega un botón para que se haga un nuevo sorteo de amigos secretos
+- En el index se agrega el botón Nuevo sorteo
