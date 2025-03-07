@@ -54,3 +54,11 @@
 - Se limpia el texto del amigo sorteado
 - Se limpia el campo de texto
 - Se inicializa el arreglo
+
+### Se crea la función reiniciarSorteo();
+- Se reinicia para crear una nueva lista de amigo secreto
+- Limpia la caja de texto
+- Deshabilita el botón nuevo sorteo
+
+### Habilita el botón Nuevo sorteo
+![](https://github.com/maricelaramirez2104/challenge-amigo-secreto/blob/main/assets/limpia-sorteo.png)
