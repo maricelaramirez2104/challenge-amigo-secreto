@@ -1,5 +1,5 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
-let amigo = [];
+let amigos = [];
 
 function agregarAmigo(){
     //En esta función vamos agregar en un arreglo los nombres que se escriban en el campo de texto
@@ -13,7 +13,7 @@ function agregarAmigo(){
     }
 
     //Agrega el nombre a la lista
-    amigo.push(nombreAmigo);
+    amigos.push(nombreAmigo);
     //Limpia el campo de texto
     inputAmigo.value = "";
     //Se posiciona en el campo de texto
@@ -30,10 +30,10 @@ function renderizarAmigos(){
     listaAmigos.innerHTML = "";
 
     //En este for vamos agregar todos los nombres a nuestra listaAmigos que tiene nuestro arreglo amigos[]
-    for(let i = 0; i < amigo.length; i++){
+    for(let i = 0; i < amigos.length; i++){
         //Crea un elemento li por cada nombre que se encuentra en mi arreglo amigo[]
         let item = document.createElement("li");
-        item.textContent = amigo[i];
+        item.textContent = amigos[i];
         //llamamos a la Ul listaAmigos los hijos que se encuentra en cada li item
         listaAmigos.appendChild(item);
     }
@@ -41,12 +41,12 @@ function renderizarAmigos(){
 
 function sortearAmigo(){
     //Valido si no he escrito amigos en el campo de texto mande una alerta
-    if(amigo.length === 0 ){
+    if(amigos.length === 0 ){
         alert("No hay amigos para sortear");
         return;
     }
     //Vamos a sortear a los amigos agregados en la lista
-    let amigoSorteado = amigos[Math.floor(Math.random()*amigo.length)];
+    let amigoSorteado = amigos[Math.floor(Math.random()*amigos.length)];
     let resultado = document.getElementById("resultado");
     resultado.innerHTML = `El amigo sorteado es: ${amigoSorteado}`;
 
