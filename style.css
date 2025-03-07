@@ -160,3 +160,21 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/* se agrega el formato para el botón nuevo sorteo*/
+
+.container__boton {
+    align-items: center;
+    border-radius: 24px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    padding: 16px 30px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.container__boton:disabled {
+    background: #898989;
+}
