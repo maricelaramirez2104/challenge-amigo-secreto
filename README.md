@@ -40,6 +40,6 @@
 ### No hay amigos para sortear
 ![](https://github.com/maricelaramirez2104/challenge-amigo-secreto/blob/main/assets/no-hay-amigos.png)
 - Vamos a sortear a los amigos agregados en la lista
-### Amigo sorteado
+### Muestra el amigo sorteado
 ![](https://github.com/maricelaramirez2104/challenge-amigo-secreto/blob/main/assets/amigo-sorteado.png)
 - Se limpia la lista de amigos
