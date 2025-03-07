@@ -26,14 +26,18 @@
 - Se posiciona en el campo de texto
 
 ### Se crea la función renderizarAmigos();
-- En esta función vamos agregar en la lista listaAmigos los nombres de los amigos unicos
-- que no se repitan los nombres que ya estan en el arreglo cuando se escriban en el campo de texto
-- Limpiamos la lista de amigos
-- En un for vamos agregar todos los nombres a nuestra listaAmigos que tiene nuestro arreglo amigos[]
-- Crea un elemento li por cada nombre que se encuentra en mi arreglo amigo[]
-- llamamos a la Ul listaAmigos los hijos que se encuentra en cada li item
+- En esta función vamos agregar en la listaAmigos los nombres de los amigos secretos
 ### Lista amigos
 ![](https://github.com/maricelaramirez2104/challenge-amigo-secreto/blob/main/assets/lista-amigos.png)
+
+- Que no se repitan los nombres que ya estan en la lista cuando se agrege uno nombre en el campo de texto
+### Nombres únicos
+![](https://github.com/maricelaramirez2104/challenge-amigo-secreto/blob/main/assets/sin-duplicados.png)
+
+- Limpiamos la lista de amigos
+- Agregar todos los nombres a nuestra listaAmigos que tiene nuestro arreglo amigos[]
+- Crea un elemento li por cada nombre que se encuentra en mi arreglo amigo[]
+- llamamos a la Ul listaAmigos los hijos que se encuentra en cada li item
 
 ### Se crea la función sortearAmigo();
 - Se valida si no se ha escrito amigos en el campo de texto mande una alerta
