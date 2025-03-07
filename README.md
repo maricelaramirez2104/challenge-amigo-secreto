@@ -44,5 +44,8 @@
 ![](https://github.com/maricelaramirez2104/challenge-amigo-secreto/blob/main/assets/amigo-sorteado.png)
 - Se limpia la lista de amigos
 
-## Se agrega un botón para que se haga un nuevo sorteo de amigos secretos
-- En el index se agrega el botón Nuevo sorteo
+## Se agrega un botón para que se haga un nuevo sorteo de amigo secreto
+- Se agrega el botón Nuevo sorteo
+- Se agrega el formato para el botón
+### Nuevo sorteo
+![](https://github.com/maricelaramirez2104/challenge-amigo-secreto/blob/main/assets/nuevo-sorteo.png)
