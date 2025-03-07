@@ -20,7 +20,7 @@ function agregarAmigo(){
 
     //Se posiciona en el campo de texto
     inputAmigo.focus();
-    
+
     //agregamos la función renderizarAmigos() para que sea llamada cada que agregamos un nombre
     renderizarAmigos();
 }
@@ -83,5 +83,5 @@ function reiniciarSorteo(){
     limpiarCaja();
 
     // Deshabilita el botón nuevo sorteo
-    document.querySelector('#reinciar').setAttribute('disabled','true');
+    document.querySelector('#reiniciar').setAttribute('disabled','true');
 }
