@@ -54,3 +54,15 @@ function sortearAmigo(){
     let limpiarLista = document.getElementById("listaAmigos");
     limpiarLista.innerHTML = "";
 }
+
+function limpiarCaja(){
+    // Se limpia el texto del amigo sorteado
+    let resultado = document.getElementById("resultado");
+    resultado.innerHTML = '';
+    // Se limpia el campo de texto
+    let inputAmigo = document.getElementById("amigo");
+    inputAmigo.innerHTML = '';
+    inputAmigo.focus();
+    // Se inicializa el arreglo
+    amigos = [];
+}
